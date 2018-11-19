@@ -4,6 +4,13 @@
 ![结构图](https://github.com/hawkey999/aws-rekognition-video-face-detection-demo/blob/master/Architect.png
 )
 
+详细见Rekognition API文档 https://docs.aws.amazon.com/zh_cn/rekognition/latest/dg/API_Operations.html
+此处主要使用四个接口：
+* CreateCollection() 见人脸索引库
+* IndexFaces() 上传人脸，建信息索引
+* StartFaceSearch() 触发分析
+* GetFaceSearch() 获取分析结果
+
 # Prepare resource
 * create S3 bucket e.g. rekognition-demo-video-oregon
 	with 3 folders: img-index-input, video-input, video-result
