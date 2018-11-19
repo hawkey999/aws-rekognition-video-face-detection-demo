@@ -1,3 +1,9 @@
+# Rekognition 是AWS的一个人工只能图像识别API服务
+本Demo演示，上传人脸图片建立图像库，应用时上传视频内容到S3，触发Rekognition分析视频，找出匹配的人脸。
+结果录入DynamoDB，原始结果保存在S3，结构图如下：
+![结构图](https://github.com/hawkey999/aws-rekognition-video-face-detection-demo/blob/master/Architect.png
+)
+
 # Prepare resource
 * create S3 bucket e.g. rekognition-demo-video-oregon
 	with 3 folders: img-index-input, video-input, video-result
