@@ -13,6 +13,15 @@
 
 # 目录结构
 * src: Lambda code
+1. rekognition-demo-s3-img-index-to-rekognition.py
+上传图片到S3，触发该Lambda，通知rekognition识别该人脸并加入人脸库
+
+2. rekognition-demo-s3-video-to-rekognition.py
+上传视频到S3，触发该Lambda，通知rekognition识别该视频
+
+3. rekognition-demo-get-result.py
+rekognition分析完视频之后，通过SNS发消息触发该Lambda，Lambda去rekognition获取分析结果
+
 * IAMPolicy: You need to create these policy for Lambda and Rekognition
 * test_trigger_for_Lambda: For Lambda function testing
 * response_result_JSON: sample response JSON
