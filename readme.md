@@ -11,6 +11,12 @@
 * StartFaceSearch() 触发分析
 * GetFaceSearch() 获取分析结果
 
+# 目录结构
+* src: Lambda code
+* IAMPolicy: You need to create these policy for Lambda and Rekognition
+* test_trigger_for_Lambda: For Lambda function testing
+* response_result_JSON: sample response JSON
+
 # Prepare resource
 * create S3 bucket e.g. rekognition-demo-video-oregon
 	with 3 folders: img-index-input, video-input, video-result
