@@ -1,0 +1,36 @@
+{
+    "Records": [{
+        "eventVersion": "2.0",
+        "eventSource": "aws:s3",
+        "awsRegion": "us-west-2",
+        "eventTime": "2018-10-14T12:48:20.229Z",
+        "eventName": "ObjectCreated:Put",
+        "userIdentity": {
+            "principalId": "AWS:AIDAICSJRTSGLP24B3CCE"
+        },
+        "requestParameters": {
+            "sourceIPAddress": "113.119.36.88"
+        },
+        "responseElements": {
+            "x-amz-request-id": "BA32F2EB04596396",
+            "x-amz-id-2": "VDbBdPkbLg1TCtzW0sbSTZPzYh7M5yoVh+Ywtz7U3NstnzvolNBI1daw2p9nGUwg49TCRn1N3nI="
+        },
+        "s3": {
+            "s3SchemaVersion": "1.0",
+            "configurationId": "12985f23-f30c-4441-b6ea-58413af4e99d",
+            "bucket": {
+                "name": "rekognition-demo-video-oregon",
+                "ownerIdentity": {
+                    "principalId": "A2CYS8S9U97QUK"
+                },
+                "arn": "arn:aws:s3:::rekognition-demo-huangzb"
+            },
+            "object": {
+                "key": "img-index-input/JamesHuang.jpg",
+                "size": 27025,
+                "eTag": "fea19c01ebc5256a243247bb08d4f8a4",
+                "sequencer": "005BC33B14048A8B3A"
+            }
+        }
+    }]
+}

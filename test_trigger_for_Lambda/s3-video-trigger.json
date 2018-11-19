@@ -1,0 +1,36 @@
+{
+    "Records": [{
+        "eventVersion": "2.0",
+        "eventSource": "aws:s3",
+        "awsRegion": "us-west-2",
+        "eventTime": "2018-10-14T15:35:42.917Z",
+        "eventName": "ObjectCreated:Put",
+        "userIdentity": {
+            "principalId": "AWS:AIDAICSJRTSGLP24B3CCE"
+        },
+        "requestParameters": {
+            "sourceIPAddress": "52.195.13.94"
+        },
+        "responseElements": {
+            "x-amz-request-id": "10239D0D18E5F4D0",
+            "x-amz-id-2": "gQ9OIUloXH3JIx0OP4n8UODouVMHLLhFID0Dc97YMNtfxbXpztebA+jURP0HYBE6WGUGdOJ3O2k="
+        },
+        "s3": {
+            "s3SchemaVersion": "1.0",
+            "configurationId": "877df0c0-057c-46b6-b940-590ee9d58617",
+            "bucket": {
+                "name": "rekognition-demo-video-oregon",
+                "ownerIdentity": {
+                    "principalId": "A2CYS8S9U97QUK"
+                },
+                "arn": "arn:aws:s3:::rekognition-demo-huangzb"
+            },
+            "object": {
+                "key": "video-input/1539530591278099-onePerson.mp4",
+                "size": 1359030,
+                "eTag": "999bb0d7c16b06749f5b44e38456e1d2",
+                "sequencer": "005BC3624EC7EA39B0"
+            }
+        }
+    }]
+}

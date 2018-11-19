@@ -1,0 +1,20 @@
+{
+    "Records": [{
+        "EventSource": "aws:sns",
+        "EventVersion": "1.0",
+        "EventSubscriptionArn": "arn:aws:sns:ap-northeast-1:968464439421:rekognition-demo-video-result:99c7c705-828a-4e9c-992d-91d454f899cd",
+        "Sns": {
+            "Type": "Notification",
+            "MessageId": "62738a64-9304-5de5-beff-de59fa321b13",
+            "TopicArn": "arn:aws:sns:ap-northeast-1:968464439421:rekognition-demo-video-result",
+            "Subject": "None",
+            "Message": "{\"JobId\":\"4a6c99fefe2f85728f6dff9cb0b3ecd54a54a61de133ca3ec482248cef02ed61\",\"Status\":\"SUCCEEDED\",\"API\":\"StartFaceSearch\",\"JobTag\":\"999bb0d7c16b06749f5b44e38456e1d2\",\"Timestamp\":1539532533181,\"Video\":{\"S3ObjectName\":\"video-input/1539530591278099-onePerson.mp4\",\"S3Bucket\":\"rekognition-demo-video-oregon\"}}",
+            "Timestamp": "2018-10-14T15:55:34.014Z",
+            "SignatureVersion": "1",
+            "Signature": "mVgxlxmcqJmB618fQFM1BPpcmVb7EtdB6WszQ+7z+vMEyfpwfU/QjCOaFOFCroXCfoXtF9u/erBCjZ2AKjCTpbgyprN4z03BiBQvddsRGdkKhCNloPbGaV6F025NgGlbuJt+9NTIfnchzENIC/NZxrrkNQ2Hf9XmDtLIrquzr+Yu/fd+hP2aJ/ROUOD//tGobssXow128wi/++a9OHbx01FZFCMa0GzbwbdVaAs/l8ci+FIZCWxaVY2za/28mEjXCF5XAy8kreIF7mYPpdxtF+hWtmivX9byHs7iwYeZPSf10KFc+910HD4tELymxLgr2YUHfm+bpBUCKQqCtD+Ugg==",
+            "SigningCertUrl": "https://sns.ap-northeast-1.amazonaws.com/SimpleNotificationService-ac565b8b1a6c5d002d285f9598aa1d9b.pem",
+            "UnsubscribeUrl": "https://sns.ap-northeast-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:ap-northeast-1:968464439421:rekognition-demo-video-result:99c7c705-828a-4e9c-992d-91d454f899cd",
+            "MessageAttributes": {}
+        }
+    }]
+}
